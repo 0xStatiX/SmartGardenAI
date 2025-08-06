@@ -1,0 +1,249 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+sqlalchemy==2.0.23
+alembic==1.13.1
+
+# Database
+psycopg2-binary==2.9.9
+redis==5.0.1
+asyncpg==0.29.0
+
+# Machine Learning
+tensorflow==2.15.0
+scikit-learn==1.3.2
+pandas==2.1.4
+numpy==1.24.4
+matplotlib==3.8.2
+plotly==5.17.0
+seaborn==0.13.0
+
+# IoT and Hardware
+paho-mqtt==1.6.1
+adafruit-circuitpython-ads1x15==3.3.8
+adafruit-circuitpython-dht==3.7.11
+RPi.GPIO==0.7.1
+board==1.0
+
+# Weather and External APIs
+requests==2.31.0
+aiohttp==3.9.1
+openweathermap-api==0.1.0
+
+# Notifications
+twilio==8.10.0
+sendgrid==6.10.0
+
+# Data Processing
+celery==5.3.4
+flower==2.0.1
+kombu==5.3.4
+
+# Authentication and Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Monitoring and Logging
+prometheus-client==0.19.0
+structlog==23.2.0
+sentry-sdk[fastapi]==1.38.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+httpx==0.25.2
+
+# Development Tools
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+pre-commit==3.6.0
+
+# Documentation
+mkdocs==1.5.3
+mkdocs-material==9.4.8
+
+# Utilities
+python-dotenv==1.0.0
+click==8.1.7
+rich==13.7.0
+tqdm==4.66.1
+
+# Time and Date
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Image Processing (for plant disease detection)
+Pillow==10.1.0
+opencv-python==4.8.1.78
+
+# Data Visualization
+bokeh==3.3.2
+dash==2.16.1
+dash-bootstrap-components==1.5.0
+
+# Configuration Management
+pyyaml==6.0.1
+configparser==6.0.0
+
+# Async Support
+asyncio-mqtt==0.16.1
+websockets==12.0
+
+# Caching
+cachetools==5.3.2
+
+# Serialization
+msgpack==1.0.7
+orjson==3.9.10
+
+# Background Tasks
+apscheduler==3.10.4
+
+# Health Checks
+healthcheck==1.3.5
+
+# API Documentation
+fastapi-openapi==0.1.0
+
+# Database Migrations
+migra==1.0.162
+
+# Environment Management
+python-decouple==3.8
+
+# Performance Monitoring
+memory-profiler==0.61.0
+line-profiler==4.1.2
+
+# Code Quality
+bandit==1.7.5
+safety==2.3.5
+
+# Mobile App Backend Support
+fastapi-cors==0.0.6
+fastapi-limiter==0.1.5
+
+# IoT Protocol Support
+pymodbus==3.5.4
+pyserial==3.5
+
+# Data Export
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+
+# Email Support
+aiosmtplib==3.0.1
+jinja2==3.1.2
+
+# WebSocket Support
+websockets==12.0
+
+# GraphQL Support (optional)
+strawberry-graphql[fastapi]==0.215.0
+
+# Real-time Analytics
+influxdb-client==1.38.0
+
+# Machine Learning Pipeline
+mlflow==2.8.1
+optuna==3.5.0
+
+# Computer Vision (for plant monitoring)
+torch==2.1.1
+torchvision==0.16.1
+
+# Natural Language Processing (for voice commands)
+transformers==4.36.2
+torchaudio==2.1.1
+
+# Edge Computing Support
+onnxruntime==1.16.3
+tflite-runtime==2.14.0
+
+# Blockchain Integration (for data integrity)
+web3==6.11.3
+
+# GIS Support (for garden mapping)
+geopy==2.4.1
+folium==0.15.1
+
+# Audio Processing (for sound-based monitoring)
+librosa==0.10.1
+soundfile==0.12.1
+
+# Advanced Analytics
+scipy==1.11.4
+statsmodels==0.14.0
+
+# API Rate Limiting
+slowapi==0.1.9
+
+# Background Job Processing
+rq==1.15.1
+
+# Configuration Validation
+pydantic-settings==2.1.0
+
+# Database Connection Pooling
+asyncpg==0.29.0
+
+# CORS Support
+fastapi-cors==0.0.6
+
+# API Versioning
+fastapi-versioning==0.10.0
+
+# Health Checks
+healthcheck==1.3.5
+
+# Metrics Collection
+prometheus-client==0.19.0
+
+# Distributed Tracing
+opentelemetry-api==1.21.0
+opentelemetry-sdk==1.21.0
+opentelemetry-instrumentation-fastapi==0.42b0
+
+# Feature Flags
+unleash-client-python==5.8.0
+
+# A/B Testing
+ab-testing==0.1.0
+
+# Data Validation
+cerberus==1.3.5
+
+# Schema Management
+marshmallow==3.20.1
+
+# API Documentation
+fastapi-swagger-ui==4.1.3
+
+# GraphQL
+strawberry-graphql[fastapi]==0.215.0
+
+# Real-time Communication
+socketio==0.1.0
+
+# Message Queuing
+kombu==5.3.4
+
+# Task Scheduling
+celery==5.3.4
+
+# Monitoring
+sentry-sdk[fastapi]==1.38.0
+
+# Logging
+structlog==23.2.0
+
+# Configuration
+python-decouple==3.8
+
+# Development
+ipython==8.18.1
+jupyter==1.0.0 
